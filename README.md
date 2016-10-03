@@ -13,8 +13,8 @@ Biznet GIO Cloud :heart: Cloudstack
    
    ![alt tag] (https://github.com/biznetgiocloud/giocloudautoscale/blob/master/img/image3.png)
    
-2. Clone source code : git clone https://github.com/biznetgiocloud/giocloudautoscale.git <br />
-3. Run install.sh : bash install.sh <br />
+2. Run install.sh : bash install.sh <br />
+3. Clone source code : git clone https://github.com/biznetgiocloud/giocloudautoscale.git <br />
 4. Run service mysql : systemctl start mariadb <br />
 5. Configure mysql with wizard : mysql_secure_installation <br />
 6. Restore sql dump to your mysql server : 
