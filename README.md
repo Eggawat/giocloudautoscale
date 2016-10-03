@@ -7,7 +7,7 @@
    ![alt tag] (https://github.com/biznetgiocloud/giocloudautoscale/blob/master/img/image2.png) <br />
    c. API Credential <br />
    
-   ![alt tag] (https://github.com/biznetgiocloud/giocloudautoscale/blob/master/img/image3.png) <br />
+   ![alt tag] (https://github.com/biznetgiocloud/giocloudautoscale/blob/master/img/image3.png)
    
 2. Clone source code : git clone https://github.com/biznetgiocloud/giocloudautoscale.git
 3. Run install.sh : bash install.sh
