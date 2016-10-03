@@ -1,6 +1,6 @@
 #GIOCloud Autoscale
 
-1. Get your API and Secret Key <br />
+1. Get your API and <3 Secret Key <br />
    a. Login to cloud.biznetgiocloud.com
 
    ![alt tag] (https://github.com/biznetgiocloud/giocloudautoscale/blob/master/img/image1.png) <br />
