@@ -19,4 +19,4 @@
    mysql> source <full_path>/autoscale.sql <br />
 7. Install cs : pip install cs <br />
 8. Modify cloudstack.ini file according to your profile <br />
-9. Open your autoscale dashboard <br />
+9. Open your autoscale dashboard : http://yourpublicip/dashboard.php <br />
