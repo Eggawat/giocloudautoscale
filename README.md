@@ -1,3 +1,7 @@
+Get your API and Secret Key
+
+
+
 1. Clone source code : git clone https://github.com/biznetgiocloud/giocloudautoscale.git
 2. Run install.sh : bash install.sh
 3. Run service mysql : systemctl start mariadb
