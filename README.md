@@ -18,4 +18,4 @@
    mysql -u <user_name> -p db_name
    mysql> source <full_path>/autoscale.sql
 7. Install cs : pip install cs
-8. Modify cloudstack.ini file according to your profile
+8. Modify cloudstack.ini file according to your profile.
