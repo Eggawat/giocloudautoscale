@@ -1,13 +1,13 @@
-1. Get your API and Secret Key
+1. Get your API and Secret Key <br />
    a. Login to cloud.biznetgiocloud.com
 
-   ![alt tag] (https://github.com/biznetgiocloud/giocloudautoscale/blob/master/img/image1.png)
-   b. My Profile
+   ![alt tag] (https://github.com/biznetgiocloud/giocloudautoscale/blob/master/img/image1.png) <br />
+   b. My Profile <br />
    
-   ![alt tag] (https://github.com/biznetgiocloud/giocloudautoscale/blob/master/img/image2.png)
-   c. API Credential
+   ![alt tag] (https://github.com/biznetgiocloud/giocloudautoscale/blob/master/img/image2.png) <br />
+   c. API Credential <br />
    
-   ![alt tag] (https://github.com/biznetgiocloud/giocloudautoscale/blob/master/img/image3.png)
+   ![alt tag] (https://github.com/biznetgiocloud/giocloudautoscale/blob/master/img/image3.png) <br />
    
 2. Clone source code : git clone https://github.com/biznetgiocloud/giocloudautoscale.git
 3. Run install.sh : bash install.sh
