@@ -1,6 +1,6 @@
 Get your API and Secret Key
 
-
+![alt tag] (https://github.com/biznetgiocloud/giocloudautoscale/blob/master/img/image.png)
 
 1. Clone source code : git clone https://github.com/biznetgiocloud/giocloudautoscale.git
 2. Run install.sh : bash install.sh
