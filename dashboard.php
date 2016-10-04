@@ -45,8 +45,6 @@
                             echo '<td>'. $cpu . '</td>';
                             echo '<td>'. $memory . '</td>';
                             echo '<td>'. $row['vmname'] . '</td>';
-                        //  echo '<td width=250>';
-                        //  echo '<a class="btn" href="details.php?id='.$row['id'].'">Details</a>';
                             echo '</td>';
                             echo '</tr>';
 
