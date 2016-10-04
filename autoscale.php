@@ -12,7 +12,7 @@
     $lbid="c98285e7-f876-44af-ad63-cae4b5e465ff";
 
     //db connection
-    $con = mysqli_connect("localhost","root","biznetgio2016","autoscale");
+    $con = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
     if (mysqli_connect_errno()) {
         echo "Failed to connect to MySQL: " . mysqli_connect_error();
     }
