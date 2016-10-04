@@ -1,7 +1,18 @@
 <?php
+    //php config
+    include 'config.php';
+
     //monitoring
     $cpu = shell_exec("top -bn2 | awk '/Cpu\(s\):/ { print 100-$8 }'| awk 'NR==2'");
     $memory = shell_exec("free | grep Mem | awk '{print $3/$2 * 100.0}'");
+
+    $con = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
+	// Check connection
+        if (mysqli_connect_errno())
+        {
+        echo "Failed to connect to MySQL: " . mysqli_connect_error();
+        }
+
 ?>
 
 <!DOCTYPE html>
@@ -28,14 +39,7 @@
                     </tr>
                   </thead>
                   <tbody>
-                  <?php
-                        $con = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
-			// Check connection
-                        if (mysqli_connect_errno())
-                        {
-                        echo "Failed to connect to MySQL: " . mysqli_connect_error();
-                        }
-
+                  <?php			
                         // Perform queries
                         $query = "SELECT * FROM vm ORDER BY id DESC LIMIT 1";
                         $result = mysqli_query($con,$query);
@@ -71,12 +75,6 @@
 
                   <tbody>
                   <?php
-                        $con = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
-			// Check connection
-                        if (mysqli_connect_errno())
-                        {
-                        echo "Failed to connect to MySQL: " . mysqli_connect_error();
-                        }
                         // Perform queries
                         $query = "SELECT * FROM vm ORDER BY id DESC";
                         $result = mysqli_query($con,$query);
@@ -108,4 +106,3 @@
     </div> <!-- /container -->
   </body>
 </html>
-
