@@ -13,7 +13,7 @@ Biznet GIO Cloud :heart: Cloudstack
    
    ![alt tag] (https://github.com/biznetgiocloud/giocloudautoscale/blob/master/img/image3.png)
    
-2. Run install.sh : bash install.sh
+2. Run install.sh : bash install.sh <br />
 3. Clone source code : git clone https://github.com/biznetgiocloud/giocloudautoscale.git <br />
 4. Run service mysql : systemctl start mariadb <br />
 5. Configure mysql with wizard : mysql_secure_installation <br />
@@ -25,7 +25,5 @@ Biznet GIO Cloud :heart: Cloudstack
 9. Open your autoscale dashboard : http://yourip/dashboard.php <br />
 ![alt tag] (https://github.com/biznetgiocloud/giocloudautoscale/blob/master/img/Screen%20Shot%202016-10-03%20at%203.32.58%20PM.png)<br />
 10. Create crontab to run autoscale.php<br />
-
-
-
+<br /><br />
 More technical detail : biznetgiocloud.com
