@@ -1,5 +1,7 @@
 <?php
 
+//vm config
+
 //db config
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
