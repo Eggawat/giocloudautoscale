@@ -22,7 +22,7 @@ Biznet GIO Cloud :heart: Cloudstack
    mysql> source <full_path>/autoscale.sql <br />
 7. Install cs : pip install cs <br />
 8. Modify cloudstack.ini file according to your profile <br />
-9. Open your autoscale dashboard : http://yourpublicip/dashboard.php <br />
-![alt tag] (https://github.com/biznetgiocloud/giocloudautoscale/blob/master/img/Screen%20Shot%202016-10-03%20at%203.32.58%20PM.png)
-
+9. Open your autoscale dashboard : http://yourip/dashboard.php <br />
+![alt tag] (https://github.com/biznetgiocloud/giocloudautoscale/blob/master/img/Screen%20Shot%202016-10-03%20at%203.32.58%20PM.png)<br />
+10. Create crontab to run autoscale.php<br />
 More technical detail : biznetgiocloud.com
