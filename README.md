@@ -21,12 +21,23 @@ bash install.sh
 ```
 git clone https://github.com/biznetgiocloud/giocloudautoscale.git 
 ```
-4. Run service mysql : systemctl start mariadb <br />
-5. Configure mysql with wizard : mysql_secure_installation <br />
+4. Run service mysql : 
+```
+systemctl start mariadb
+```
+5. Configure mysql with wizard :
+```
+mysql_secure_installation
+```
 6. Restore sql dump to your mysql server : 
-   mysql -u <user_name> -p db_name
-   mysql> source <full_path>/autoscale.sql <br />
-7. Install cs : pip install cs <br />
+```
+mysql -u <user_name> -p db_name
+mysql> source <full_path>/autoscale.sql <br />
+```
+7. Install cs :
+```
+pip install cs
+```
 8. Modify cloudstack.ini file according to your profile <br />
 9. Modify config.php file according to your environment <br />
 10. Open your autoscale dashboard : http://yourip/dashboard.php <br />
