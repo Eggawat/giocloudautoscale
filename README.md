@@ -14,13 +14,13 @@ Biznet GIO Cloud :heart: Cloudstack
    ![alt tag] (https://github.com/biznetgiocloud/giocloudautoscale/blob/master/img/image3.png)
    
    
--  Run install.sh : 
-```
-bash install.sh 
-```
 -  Clone source code : 
 ```
 git clone https://github.com/biznetgiocloud/giocloudautoscale.git 
+```
+-  Run install.sh : 
+```
+bash install.sh 
 ```
 -  Run service mysql : 
 ```
