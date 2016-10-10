@@ -44,6 +44,7 @@ pip install cs
 ```
 -  Modify cloudstack.ini file according to your profile <br />
 -  Modify config.php file according to your environment <br />
+-  Move giocloudautoscale folder to your Web root directory <br />
 -  Open your autoscale dashboard : http://yourip/dashboard.php <br />
 ![alt tag] (https://github.com/biznetgiocloud/giocloudautoscale/blob/master/img/Screen%20Shot%202016-10-03%20at%203.32.58%20PM.png)<br />
 -  Create crontab to run autoscale.php<br />
