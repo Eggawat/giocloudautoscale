@@ -23,7 +23,7 @@ git clone https://github.com/biznetgiocloud/giocloudautoscale.git
 ```
 -  Run install.sh : 
 ```
-bash install.sh 
+bash giocloudautoscale/install.sh 
 ```
 -  Run service mysql : 
 ```
