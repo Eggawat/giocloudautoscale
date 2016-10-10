@@ -13,7 +13,10 @@ Biznet GIO Cloud :heart: Cloudstack
    
    ![alt tag] (https://github.com/biznetgiocloud/giocloudautoscale/blob/master/img/image3.png)
    
-   
+-  Install git : 
+```
+yum install git
+```
 -  Clone source code : 
 ```
 git clone https://github.com/biznetgiocloud/giocloudautoscale.git 
