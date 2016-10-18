@@ -2,6 +2,9 @@
     //php config
     include 'config.php';
 
+    $zoneid=ZONE_ID;
+    $svcid=SVC_ID;
+    
     //monitoring
     $cpu = shell_exec("top -bn2 | awk '/Cpu\(s\):/ { print 100-$8 }'| awk 'NR==2'");
     $memory = shell_exec("free | grep Mem | awk '{print $3/$2 * 100.0}'");
