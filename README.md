@@ -35,8 +35,7 @@ mysql_secure_installation
 ```
 -  Restore sql dump to your mysql server : 
 ```
-mysql -u <user_name> -p db_name
-mysql> source <full_path>/autoscale.sql
+mysql –u root –p db_name < autoscale.sql
 ```
 -  Install cs :
 ```
