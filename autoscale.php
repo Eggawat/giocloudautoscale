@@ -4,6 +4,11 @@
 
     $zoneid=ZONE_ID;
     $svcid=SVC_ID;
+    $templateid=TEMPLATE_ID;
+    $networkid=NETWORK_ID;
+    $region=REGION;
+    $lbid=LB_ID;
+    
     
     //monitoring
     $cpu = shell_exec("top -bn2 | awk '/Cpu\(s\):/ { print 100-$8 }'| awk 'NR==2'");
