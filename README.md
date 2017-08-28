@@ -1,9 +1,9 @@
 #GIOCloud Autoscale
-Biznet GIO Cloud :heart: Cloudstack
+Leap GIO Cloud :heart: Cloudstack
 
 ##Installation <br />
 -  Get your API and Secret Key <br />
-   a. Login to cloud.biznetgiocloud.com
+   a. Login to myportal.leapgio.cloud
 
    ![alt tag] (https://github.com/biznetgiocloud/giocloudautoscale/blob/master/img/image1.png) <br />
    b. My Profile <br />
@@ -19,7 +19,7 @@ yum install git
 ```
 -  Clone source code : 
 ```
-git clone https://github.com/biznetgiocloud/giocloudautoscale.git 
+git clone https://github.com/Eggawat/giocloudautoscale
 ```
 -  Run install.sh : 
 ```
@@ -48,4 +48,4 @@ pip install cs
 ![alt tag] (https://github.com/biznetgiocloud/giocloudautoscale/blob/master/img/Screen%20Shot%202016-10-03%20at%203.32.58%20PM.png)<br />
 -  Create crontab to run autoscale.php<br />
 <br /><br />
-More technical detail : biznetgiocloud.com
+
