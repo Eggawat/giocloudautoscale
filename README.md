@@ -1,7 +1,7 @@
 #GIOCloud Autoscale <br/>
 Leap GIO Cloud :heart: Cloudstack
 
-##Installation <br />
+##Installation (CentOS 7) <br />
 -  Get your API and Secret Key <br />
    a. Login to myportal.leapgio.cloud
 
